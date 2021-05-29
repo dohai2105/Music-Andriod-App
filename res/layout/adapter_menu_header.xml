@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="false"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="false"
+        android:src="@drawable/ve1" />
+
+    <TextView
+        android:id="@+id/menuNameTv"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginLeft="10dip"
+        android:layout_weight="1"
+        android:visibility="gone"
+        android:textColor="#000000"
+        android:textSize="16sp" >
+    </TextView>
+
+    <View
+        android:id="@+id/divider_left_menu"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#000"
+        android:clickable="false" />
+
+</LinearLayout>

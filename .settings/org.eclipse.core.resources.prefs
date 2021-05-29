@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+encoding//src/com/freecompany/chiasenhac/MainActivity.java=UTF-8
+encoding//src/com/freecompany/chiasenhac/PlayVideoActvity.java=UTF-8
+encoding//src/com/freecompany/chiasenhac/SearchActivity.java=UTF-8
+encoding//src/com/freecompany/chiasenhac/adapter/ListSongAdapter.java=UTF-8
+encoding//src/com/freecompany/chiasenhac/adapter/ListVideoAdapter.java=UTF-8
+encoding//src/com/freecompany/chiasenhac/adapter/MenuAdapter.java=UTF-8
+encoding//src/com/freecompany/chiasenhac/constant/Constant.java=UTF-8
+encoding//src/com/freecompany/chiasenhac/fragment/MenuFragment.java=UTF-8
+encoding//src/com/freecompany/chiasenhac/fragment/PlayerControlFragment.java=UTF-8
+encoding//src/com/freecompany/chiasenhac/makefolder/SimpleFileDialog.java=UTF-8
+encoding//src/com/freecompany/chiasenhac/service/MediaService.java=UTF-8

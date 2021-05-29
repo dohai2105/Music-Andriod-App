@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <com.example.squareImage.ResizableImageViewHeight
+        android:id="@+id/videoImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:descendantFocusability="blocksDescendants"
+        android:src="@drawable/demoimg" />
+
+    <TextView
+        android:id="@+id/videoTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/videoImg"
+        android:maxLength="60"
+        android:singleLine="true"
+        android:text="video Title"
+        android:textColor="#000"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/singerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/videoTitle"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/videoImg"
+        android:maxLength="60"
+        android:singleLine="true"
+        android:text="ozawa"
+        android:textSize="13sp" >
+    </TextView>
+
+    <ImageView
+        android:id="@+id/typeImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/singerName"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/videoImg"
+        android:src="@drawable/type" />
+
+    <TextView
+        android:id="@+id/videoType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/singerName"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="7dp"
+        android:layout_toRightOf="@+id/typeImg"
+        android:text="HD 1080"
+        android:textColor="#FF4500"
+        android:textSize="13sp" />
+
+    <ImageView
+        android:id="@+id/videodownload"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="3dp"
+        android:layout_marginRight="10dp"
+        android:background="@null"
+        android:descendantFocusability="blocksDescendants"
+        android:src="@drawable/state_video_download" />
+
+</RelativeLayout>

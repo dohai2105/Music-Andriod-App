@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item>
+        <clip android:drawable="@drawable/scrubber_primary_holo" android:clipOrientation="horizontal">
+        </clip>
+    </item>
+</layer-list>
