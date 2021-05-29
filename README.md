@@ -20,5 +20,3 @@ Image:<br/>
 ![alt text](https://github.com/dohai2105/Music-Andriod-App/blob/main/bg/anh3.jpg)
 
 ![alt text](https://github.com/dohai2105/Music-Andriod-App/blob/main/bg/anh4.jpg)
-
-![alt text](https://github.com/dohai2105/Music-Andriod-App/blob/main/bg/anh5.jpg)
